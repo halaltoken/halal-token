@@ -1,13 +1,16 @@
-# Environment variables
+# Environment files
 *.env
 
-# Node dependencies (if using Node/Hardhat/Truffle)
+# Node.js dependencies (for Hardhat/Truffle)
 node_modules/
 
 # Build artifacts
-build/
 artifacts/
 cache/
+build/
 
 # VSCode settings
 .vscode/
+
+# Logs
+*.log
